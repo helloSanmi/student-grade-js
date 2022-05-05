@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <link href= "https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="src/style.css" />
+</head>
+<body>
+     <!-- main html  -->
+     <div class="container">
+        <h1>Jamb Grade calculator</h1>
+        <div class="screen-body-item">
+    
+            <div class="form-group">
+              <!-- option for taking the input -->
+              <label for="form-control">Chemistry</label>
+              <input type="text" class="form-control" placeholder="Score..." id="chemistry" />
+            </div>
+            <div class="form-group">
+                <label for="form-control">Physics</label>
+              <input type="text" class="form-control" placeholder="Score..." id="physics" />
+            </div>
+            <div class="form-group">
+                <label for="form-control">Mathematics</label>
+              <input type="text" class="form-control" placeholder="Score..." id="maths" />
+            </div>
+            <div class="form-group">
+                <label for="form-control">English</label>
+              <input type="text" class="form-control" placeholder="Score..." id="eng" />
+            </div>
+            <div>
+              <input type="button" value="Calculate" class="form-button" id="button" />
+            </div>
+
+        </div>
+
+        <!-- for showing the result-->
+        <div class="form-group display">
+          <p id="display"></p>
+        </div>
+      </div>
+
+      <!--adding external javascript file-->
+      <script src="src/script.js"></script>
+</body>
+</html>
